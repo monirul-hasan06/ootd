@@ -21,7 +21,20 @@
           "locationWhenInUsePermission": "Allow OOTD to use your location to tailor outfits to your local weather."
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-sharing",
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "Allow OOTD to access your calendar to suggest outfits based on your daily events."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow OOTD to access your photos to add items to your virtual wardrobe."
+        }
+      ]
     ],
     "ios": {
       "supportsTablet": true,
